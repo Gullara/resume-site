@@ -5,56 +5,201 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         
         <!-- Bootstrap core CSS -->
-        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
         <!-- Bootstrap theme -->
-        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
     </head>
     <body>
+        <!-- Header -->
         <div class="container">
-            <!-- Header -->
             <div class="header">
                 <ul class="nav nav-pills pull-right">
-                    <li class="active"><a href="#">Home</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="pdf/resume.pdf">Resume</a></li>
                 </ul>
                 <h3><a class="navbar-brand" href="#">Evan Sutter's Portfolio</a></h3>
             </div>
         </div>
-        
         <hr class="featurette-divider">
         
         <!-- Summery/Navigation -->
         <div class="container marketing">
             <div class="row">
+                
                 <div class="col-lg-4">
-                    <img class="img-circle" data-src="holder.js/140x140" alt="140x140" src="" style="width: 140px; height: 140px;">
+                    <img class="img-circle" data-src="holder.js/140x140" alt="140x140" 
+                         src="images/portraitSmall.png" style="width: 140px; height: 140px;">
                     <h2>About Me</h2>
-                    <p>Here is some information about me, wherein I talk about myself.</p>
-                    <p><a class="btn btn-default" href="#" role="button">View details »</a></p>
+                    <p>
+                        My name is Evan Sutter. I hope to be a hard working, valuable 
+                        member of any organization that chooses to hire me. 
+                    </p>
+                    <p><a class="btn btn-primary" href="#aboutMe" role="button">Read More »</a></p>
                 </div><!-- /.col-lg-4 -->
+                
                 <div class="col-lg-4">
-                    <img class="img-circle" data-src="holder.js/140x140" alt="140x140" src="" style="width: 140px; height: 140px;">
+                    <img class="img-circle" data-src="holder.js/140x140" alt="140x140" 
+                         src="" style="width: 140px; height: 140px;">
                     <h2>Education</h2>
-                    <p>And here is where I mention what schooling I have in brief.</p>
-                    <p><a class="btn btn-default" href="#" role="button">View details »</a></p>
+                    <p>
+                        I attended the Computer Systems Technology program at the 
+                        SIAST Kelsey campus in Saskatoon, Saskatchewan
+                    </p>
+                    <p><a class="btn btn-primary" href="#education" role="button">Read More »</a></p>
                 </div><!-- /.col-lg-4 -->
+                
                 <div class="col-lg-4">
-                    <img class="img-circle" data-src="holder.js/140x140" alt="140x140" src="" style="width: 140px; height: 140px;">
+                    <img class="img-circle" data-src="holder.js/140x140" alt="My portrait" 
+                         src="images/codePicSmall.png" style="width: 140px; height: 140px;">
                     <h2>Experience</h2>
-                    <p>And finally here I talk about my skills and experience.</p>
-                    <p><a class="btn btn-default" href="#" role="button">View details »</a></p>
+                    <p>
+                        I have gained a wide array of experience in both my schooling 
+                        and past jobs. Not just in my technical skills, but also in 
+                        how I work with others.
+                    </p>
+                    <p><a class="btn btn-primary" href="#experience" role="button">Read More »</a></p>
                 </div><!-- /.col-lg-4 -->
+                
             </div>
-            
             <hr class="featurette-divider">
-            
-            
+        </div>
+
+        <div class="container">
+            <!-- About Me Section -->
+            <div class="row featurette" id="aboutMe">
+                <div class="col-md-7">
+                    <h2 class="featurette-heading">About Me</h2>
+                    <p class="lead">
+                        Hello, my name is Evan Sutter. Thank you for 
+                        taking the time to look at my portfolio. 
+                    </p>
+                    <p class="lead">
+                        I believe there is a lot I can offer to potential 
+                        employers. I am a hard working individual who not only believes 
+                        in getting the job done, but in doing a good job. I have a 
+                        strong attention to detail that is reflected in my work. 
+                    </p>
+                    <p class="lead">
+                        I work well with coworkers as well as customers. I have 
+                        experience working with both in my past jobs and during 
+                        my schooling. 
+                    </p>
+                </div>
+                
+                <div class="col-md-5">
+                    <img class="featurette-image img-responsive" 
+                         data-src="holder.js/500x500/auto" alt="500x500" 
+                         src="images/portrait.jpg" style="height: 500px; border: black solid">
+                </div>
+            </div>
+            <hr class="featurette-divider">
+
+            <!-- Education Section -->
+            <div class="row featurette" id="education">
+                <div class="col-md-5">
+                    <img class="featurette-image img-responsive" 
+                         data-src="holder.js/500x500/auto" alt="CST logo" 
+                         src="" style="border: black solid">
+                </div>
+                
+                <div class="col-md-7">
+                    <h2 class="featurette-heading">Education</h2>
+                    <p class="lead">
+                        Computer Systems Technology (CST) Diploma
+                    </p>
+                    <p class="lead">
+                        Saskatchewan Institute of Applied Science and Technology 
+                        (SIAST), Kelsey Campus
+                    </p>
+                    <p>June 2014 graduate</p>
+                    <br />
+                    <h4>Areas of Study:</h5>
+                    <ul>
+                        <li>Programming
+                            <ul>
+                                <li>Object oriented languages (Java, C#)</li>
+                                <li>Procedural languages (C)</li>
+                                <li>Web development (PHP, ASP, JavaScript)</li>
+                            </ul>
+                        </li>
+                        <li>Communication and business principles</li>
+                        <li>Network administration</li>
+                        <li>Database administration</li>
+                        <li>Security</li>
+                    </ul>
+                    <p>
+                        <a href="http://gosiast.com/programs-and-courses/programs/Computer-Systems-Technology.aspx">Click here</a> 
+                        to learn more about the CST program.
+                    </p>
+                </div>
+            </div>
+            <hr class="featurette-divider">
+
+            <!-- Experience Section -->
+            <div class="row featurette" id="experience">
+                <div class="col-md-7">
+                    <h2 class="featurette-heading">Experience</h2>
+                    <p class="lead">
+                        The CST program has been a valuable source of experience for me. 
+                        Not only have I acquired the technical know how I need to do my 
+                        work, but I gained valuable interpersonal skills. Often my 
+                        classmates and I would work together on projects, which helped 
+                        me to better understand how to work with coworkers. 
+                    </p>
+                    <p class="lead">
+                        We’ve also had the opportunity to work with a client from outside 
+                        the program, Warman Homes Center. My team and I are in the process 
+                        of creating a piece of software to help them manage their invoices. 
+                        We work with the client directly, keeping in frequent communication 
+                        with them. 
+                    </p>
+                    <p class="lead">
+                        On the technical side, I am familiar with a number of programming 
+                        languages and environments. This included languages such as PHP, 
+                        ASP.NET, Javascript and JQuery, C, C#, and Java. In addition to 
+                        being familiar with these languages, I also have a solid base 
+                        from which to learn more, and I’m always ready to learn. 
+                    </p>
+                </div>
+                
+                <div class="col-md-5">
+                    <div class="list-group">
+                        <p class="list-group-item active" style="color: white">
+                            My Past Projects
+                        </p>
+                        <a href="workExamples/whcInvoiceExample.html" class="list-group-item">
+                            Warman Homes Center Invoice Tracking
+                        </a>
+                        <a href="workExamples/imageShareExample.html" class="list-group-item">
+                            Image Sharing Website
+                        </a>
+                        <a href="workExamples/evapExample.html" class="list-group-item">
+                            eVap Module Application
+                        </a>
+                        <a href="workExamples/tutorExample.html" class="list-group-item">
+                            Tutoring Services Site
+                        </a>
+                        <a href="workExamples/rpgCompanionExample.html" class="list-group-item">
+                            RPG Companion App
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Footer -->
+        <hr class="featurette-divider">
+        <div id="footer">
+            <div class="container">
+                <p class="text-muted">Contact me at <a href="mailto:sutter2280@siast.sk.ca">sutter2280@siast.sk.ca</a></p>
+            </div>
         </div>
         
         <!-- ===== Bootstrap core JavaScript ===== -->
         <!-- JQuery CDN -->
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-        <!-- Bootstrap CDN -->
-        <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+        <!-- Bootstrap JS -->
+        <script src="js/bootstrap.min.js"></script>
     </body>
 </html>
