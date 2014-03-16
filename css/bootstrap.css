@@ -5551,7 +5551,7 @@ button.close {
   /*background-color: rgba(0, 0, 0, 0);*/
   background-color: rgba(255, 255, 255, 0);
   /*border: 1px solid #fff;*/
-  border: 1px solid #000;
+  border: 1px solid #2d6ca2;
   border-radius: 10px;
 }
 /* Edited */
@@ -5560,7 +5560,7 @@ button.close {
   height: 12px;
   margin: 0;
   /*background-color: #fff;*/
-  background-color: #000;
+  background-color: #2d6ca2;
 }
 .carousel-caption {
   position: absolute;
